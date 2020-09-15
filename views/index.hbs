@@ -1,0 +1,10 @@
+<h1>Eric's {{title}}</h1>
+<p>Welcome to the {{title}}</p>
+
+<ul>
+  {{#each messages}}
+    <li><i class="timestamp">{{this.added}}</i> {{this.user}}: {{this.text}}</li>
+  {{/each}}
+</ul>
+
+<a href="/new">add a message</a>
